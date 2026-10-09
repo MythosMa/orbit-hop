@@ -1,0 +1,30 @@
+; Engine configuration file.
+; Godot 4.7 C# project — 星轨 / Orbit Hop
+
+config_version=5
+
+[application]
+
+config/name="Orbit Hop"
+config/description="A one-touch orbital timing game. Built with Godot 4.7 + C# for the web."
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.031, 0.039, 0.071, 1)
